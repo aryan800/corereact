@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xpertcom/public_html/corereact
+    - /bin/cp -R * $DEPLOYPATH
