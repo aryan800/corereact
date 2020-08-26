@@ -1,0 +1,174 @@
+.navbar-style {
+    background-color: #282c68;
+    color:white;
+    padding-left: 200px;
+}
+.navbar-style li {
+    padding:1px 20px;
+}
+.navbar-style a {
+    color:white;
+}
+
+.navbar-style .dropdown-menu {
+    background-color: #282c68;
+}
+
+.navbar-btn i{
+    font-size:25px;
+    color:white;float:right;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .logos {
+      position: absolute;
+      width:150px;
+      height:100px;
+      margin-top: 50px;
+      z-index: 99;
+  }
+
+.about-div-left {
+    background-image: url('/assets/images/about-bg.jpg');
+    height:400px;
+    padding-top: 50px;
+}
+
+.about-div-left > h3{ 
+    color:#282c68;
+}
+
+.about-div-left > h5{ 
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    padding:10px;
+}
+
+.about-div-left > a > button {
+    background-color: #282c68;
+    color:white;
+    border:none;
+    padding:10px;
+}
+
+.about-div-right {
+    background-image: url('/assets/images/about-school.jpg');
+    height:400px;
+    padding-top: 50px;
+}
+
+.notice-div-left {
+    background-image: url('/assets/images/notice-bg1.png');
+    height:400px;
+    padding-top: 50px;
+}
+
+.notice-div-right {
+    background-image: url('/assets/images/about-bg.jpg');
+    height:400px;
+    padding-top: 20px;
+}
+
+.notice-div-right > h3{ 
+    color:#282c68;
+}
+
+.notice-div-right > a > button {
+    background-color: #282c68;
+    color:white;
+    border:none;
+    padding:10px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .wrapper p {
+    position: absolute;
+    margin: 50;
+    line-height: 25px;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+  }
+
+    .msg-div-left {
+    background-image: url('/assets/images/about-bg.jpg');
+    height:400px;
+    padding-top: 50px;
+    }
+
+    .msg-div-left > h3{ 
+        color:#282c68;
+    }
+
+    .msg-div-left > h5{ 
+        font-size: 16px;
+        font-family: 'Roboto',sans-serif;
+        padding:10px;
+    }
+
+    .msg-div-left > a > button {
+        background-color: #282c68;
+        color:white;
+        border:none;
+        padding:10px;
+    }
+
+    .msg-div-right {
+        background-image: url('/assets/images/principal-bg.jpg');
+        height:400px;
+        padding-top: 50px;
+    }
+
+    .gallery-div-left {
+        background-image: url('/assets/images/photo_gallery.jpg');
+        height:400px;
+        padding-top: 50px;
+    }
+
+    .toppers-div-right {
+        background-image: url('/assets/images/achievement_image.jpg');
+        height:400px;
+        padding-top: 50px;
+    }
+
+    .bday-div-left {
+        background-image: url('/assets/images/bday.png');
+        height:400px;
+        /* padding-top: 50px; */
+        /* margin-top: -100px; */
+    }
+
+    .footer-row {
+        background-color: #282c68;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .footer-row h2 {
+        border-bottom: solid 2px red;
+        text-align: center;
+        /* text-decoration: underline; */
+    }
+
+  @keyframes marquee {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-490%); -webkit-transform: translateY(-490%); -moz-transform: translateY(-490%); -ms-transform: translateY(-490%); -o-transform: translateY(-490%); }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+
+    .navbar-style {
+        padding:10px;
+    }
+
+  }
